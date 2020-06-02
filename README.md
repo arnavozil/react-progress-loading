@@ -1,6 +1,6 @@
 # react-progress-loading
 
-> Progressively load images using a medium like blur effect.
+>Light weight react library to progressively load images using a medium like blur effect.
 
 [![NPM](https://img.shields.io/npm/v/react-progress-loading.svg)](https://www.npmjs.com/package/react-progress-loading) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -8,6 +8,7 @@
 
 ```bash
 npm install --save react-progress-loading
+yarn add react-progress-loading
 ```
 
 ## Usage
@@ -15,12 +16,17 @@ npm install --save react-progress-loading
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-progress-loading'
-import 'react-progress-loading/dist/index.css'
+import ProgressiveImage from 'react-progress-loading'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return (<ProgressiveImage
+          originalImageSrc={originalImage} //requied
+          smallImageSrc={smallImage} //required
+          containerDivStyles={{}}
+          smallImageStyles={{}}
+          originalImageStyles={{}}
+    />)
   }
 }
 ```

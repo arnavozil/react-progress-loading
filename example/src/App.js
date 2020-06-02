@@ -1,10 +1,21 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-progress-loading'
-import 'react-progress-loading/dist/index.css'
+import ProgressiveImage from 'react-progress-loading'
+// import 'react-progress-loading/dist/index.css'
+
+import originalImage from './assets/original';
+import smallImage from './assets/small';
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <ProgressiveImage
+     originalImageSrc={originalImage}
+     smallImageSrc={smallImage}
+     containerDivStyles={{}}
+     smallImageStyles={{}}
+     originalImageStyles={{}}
+    />
+  )
 }
 
 export default App
