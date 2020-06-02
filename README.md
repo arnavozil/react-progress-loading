@@ -11,6 +11,10 @@ npm install --save react-progress-loading
 yarn add react-progress-loading
 ```
 
+## Example
+
+![alt text](https://drive.google.com/file/d/172pPev0MhvAM3R1oOzwV2wsWmjQgB6NH/view?usp=sharing)
+
 ## Usage
 
 ```jsx

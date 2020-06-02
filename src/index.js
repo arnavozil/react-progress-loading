@@ -19,8 +19,8 @@ const s = {
       width: '100%',
       height: '100%',
       transition: 'all 5s ease',
-      filter: 'blur(2rem)',
-      webkitFilter: 'blur(2rem)',
+      filter: 'blur(1rem)',
+      WebkitFilter: 'blur(1rem)',
   },
 
   bigImage: {
