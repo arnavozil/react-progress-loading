@@ -1,6 +1,6 @@
 {
   "name": "react-progress-loading",
-  "version": "1.0.0",
+  "version": "1.0.11",
   "description": "Progressively load images using a medium like blur effect.",
   "author": "arnavozil",
   "license": "MIT",

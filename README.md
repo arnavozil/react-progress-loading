@@ -13,8 +13,8 @@ yarn add react-progress-loading
 
 ## Example
 
-![alt text](https://drive.google.com/file/d/172pPev0MhvAM3R1oOzwV2wsWmjQgB6NH/view?usp=sharing)
-
+![alt text](https://s7.gifyu.com/images/medium.gif)
+For a working demo, checkout my [sandbox](https://codesandbox.io/s/react-progress-loading-rcxhl?file=/src/Image.js)
 ## Usage
 
 ```jsx
